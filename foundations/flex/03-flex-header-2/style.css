@@ -12,6 +12,17 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  padding: 10px;
+  display: flex;
+  /* step 1 to get the button to the right side */
+  justify-content: space-between;
+}
+
+.links {
+  display: flex;
+  gap: 20px;
+  /* step 2, auto bring the links back to the left */
+  margin-right: auto;
 }
 
 .profile-image {
@@ -20,6 +31,12 @@ body {
   border-radius: 50%;
   width: 48px;
   height: 48px;
+}
+
+.right-side {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
 }
 
 .logo {
@@ -45,4 +62,8 @@ a {
 
 ul {
   list-style-type: none;
+}
+
+.notifications {
+  align-self: center;
 }
