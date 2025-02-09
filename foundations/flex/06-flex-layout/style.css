@@ -22,10 +22,22 @@
 }
 
 body {
+  /* Use this to adjust filing the viewport */
   height: 100vh;
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* Had to make body a flex container to get this to fill the space */
+  flex: 1;
 }
 
 img {
@@ -44,4 +56,10 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
 }
