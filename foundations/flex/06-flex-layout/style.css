@@ -49,6 +49,9 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 8px;
+  font-size: 11pt;
+  margin-top: 10px;
 }
 
 input {
@@ -64,3 +67,4 @@ input {
   justify-content: space-between;
   align-items: flex-end;
 }
+
