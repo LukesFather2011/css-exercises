@@ -3,7 +3,7 @@
 * {
   text-decoration: none;
   list-style-type: none;
-  color: gray;
+  color: #575655;
 }
 
 .header {
@@ -59,6 +59,7 @@ input {
 }
 
 .footer {
+  background-color: lightgray;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
